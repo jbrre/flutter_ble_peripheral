@@ -174,10 +174,10 @@ class FlutterBlePeripheral {
     return _peripheralState!;
   }
 
-  // /// Returns Stream of data.
-  // ///
-  // ///
-  // Stream<Uint8List> getDataReceived() {
-  //   return _dataReceivedEventChannel.receiveBroadcastStream().cast<Uint8List>();
-  // }
+  /// Returns Stream of data.
+  ///
+  ///
+  Stream<Uint8List> getDataReceived() {
+    return _dataReceivedEventChannel.receiveBroadcastStream().cast<Uint8List>();
+  }
 }
